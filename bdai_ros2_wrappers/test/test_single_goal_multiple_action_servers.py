@@ -65,7 +65,7 @@ def action_triplet(
 
 
 def test_actions_in_sequence(
-    action_triplet: Tuple[SingleGoalMultipleActionServers, ActionClientWrapper, ActionClientWrapper]
+    action_triplet: Tuple[SingleGoalMultipleActionServers, ActionClientWrapper, ActionClientWrapper],
 ) -> None:
     """
     Tests out normal operation with multiple action servers and clients
